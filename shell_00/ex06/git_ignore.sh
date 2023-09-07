@@ -1,1 +1,1 @@
-echo indev ou pas
+cat ../../.git/info/exclude | grep -Ev "# *"

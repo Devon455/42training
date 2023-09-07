@@ -1,4 +1,3 @@
-#!/bin/sh
-
-FT_USER="root"
-id -g $FT_USER -n | tr ' ' ','
+#!/bin/bash
+echo "$FT_USER"
+groups "$FT_USER" | tr ' ' ','
